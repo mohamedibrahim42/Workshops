@@ -1,9 +1,9 @@
 # Training
 
-A. Day 1 
+1. Day 1 
     1. Orientation
 
-B. Day 2
+2. Day 2
     1. Agile and Scrum
         * Introduction To Scrum And Agile
         * Scrum Roles And Responsibilities
@@ -11,7 +11,7 @@ B. Day 2
     2. Git
     3. Team buddy
 
-C. Day 3
+3. Day 3
     1. Docker , Container and Kubernetes
         * What is docker and container
         * Introduction to Kubernetes
@@ -19,10 +19,10 @@ C. Day 3
     2. Blockchain
     3. Team buddy
 
-D. Day 4
+1. Day 4
     1. Design Thinking
 
-E. Day 5
+1. Day 5
     1. Machine Learning
         * Machine Learning workshop
         * Endpoint setup on GCP and AWS (optional)
