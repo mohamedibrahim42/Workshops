@@ -1,4 +1,4 @@
-# Docoker Workshop
+# Docker Workshop
     1. What is Container and Docker
     2. What is Kubernetes
     3. Workshop
@@ -7,7 +7,7 @@
 
 Containers such as Docker let us package up entire applications, including the application’s libraries, dependencies, environment and everything else needed by the application to run.
 
-![Image of Docker](/docker.png)
+![Image of Docker](Docker/images/docker.png)
 
 So we can think of containers as portable, packaged bits of functionality and Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. 
 
@@ -21,4 +21,4 @@ These images can be stored in a registry for ease of discovery and sharing purpo
 
 An image is essentially a snapshot of a container and a container is a running instance of an image.
 
-![Image of DockerRegistry](/dockerRepository.png)
+![Image of DockerRegistry](Docker/images/dockerRepository.png)
