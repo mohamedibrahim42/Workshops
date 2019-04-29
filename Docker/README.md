@@ -34,7 +34,7 @@ As a Kubernetes user, you can define how your applications should run and the wa
 2. Dockerize the application
     To run this application in a Docker container, we will write a Dockerfile using the official node image from the Docker Hub registry. We will then use Docker Compose, a tool for running multi-container applications, to spin up our containers and run our app.
     a.  create a Dockerfile in the project directory.
-            FROM node:latest
+            ```FROM node:latest
             RUN mkdir -p /usr/src/app
             WORKDIR /usr/src/app
             COPY package.json /usr/src/app/
@@ -42,12 +42,13 @@ As a Kubernetes user, you can define how your applications should run and the wa
             COPY . /usr/src/app
             EXPOSE 3009
             CMD [ “npm”, “start” ]
+            ```
     b.  Dockerize MongoDB
         We could build our own mongo image but wherever possible, we should look to use official images.
         This is beneficial as it saves us a fair amount of time and effort — we don’t have to spend time creating our own images or worry about the latest releases or applying updates. All of that is taken care of by the publisher of the image.
     
         Let’s add a docker-compose.yml file to define the services in our application.
-
+          ```
             version: "2"
             services:
               app:
@@ -65,5 +66,5 @@ As a Kubernetes user, you can define how your applications should run and the wa
                   - ./data:/data/db
                 ports:
                   - "27017:27017"
-
+           ```
 ![Image of Project](/Docker/images/project.png)
