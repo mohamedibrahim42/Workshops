@@ -37,7 +37,7 @@ https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
 
 ## Exercise 1: Branching
 
-1. Go to foler LabWork
+1. Go to repo LabWork
 
 2. Create a new branch 
 
