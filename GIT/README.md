@@ -3,8 +3,7 @@
 The following practical exercises should give you some familiarity with using 
 Git. 
 
-Note: The provided command line examples are to remind you of the correct syntax 
-and keywords, and won't necessarily work if you type them in blindly
+Note: The provided command line examples are to remind you of the correct syntax and keywords, and won't necessarily work if you type them in blindly
 
 Other Note: to get help on a particular git command, use `git <command> --help`
  
